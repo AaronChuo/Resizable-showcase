@@ -1,0 +1,51 @@
+@import "compass/css3";
+
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  @include background-image(
+    linear-gradient(to top, #000 50%, transparent 70%),
+    linear-gradient(#222, #222)
+  );
+}
+
+section {
+  @include transition(
+    all 350ms ease-in-out,
+    opacity 900ms ease-in-out
+  );
+  float: left;
+  display: block;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.wide {
+  width: 70%;
+}
+
+.narrow {
+  width: 15%;
+  @include filter(grayscale(100%));
+}
+
+.average {
+  width: 33.333333%;
+}
+
+.ironman {
+  background: url(http://aaronchuo.cc/assets/images/ironman.jpg) top center no-repeat;
+  background-size: auto 120%;
+}
+
+.captain {
+  background: url(http://aaronchuo.cc/assets/images/captain_america.jpg) top center no-repeat;
+  background-size: auto 120%;
+}
+
+.thor {
+  background: url(http://aaronchuo.cc/assets/images/thor.jpg) top center no-repeat;
+  background-size: auto 120%;
+}
+//Images powered by Marvel

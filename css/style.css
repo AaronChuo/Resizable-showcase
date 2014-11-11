@@ -1,0 +1,45 @@
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(bottom, #000000 50%, rgba(0, 0, 0, 0) 70%), -webkit-linear-gradient(#222222, #222222);
+  background-image: linear-gradient(to top, #000000 50%, rgba(0, 0, 0, 0) 70%), linear-gradient(#222222, #222222);
+}
+
+section {
+  -webkit-transition: all 350ms ease-in-out, opacity 900ms ease-in-out;
+  transition: all 350ms ease-in-out, opacity 900ms ease-in-out;
+  float: left;
+  display: block;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.wide {
+  width: 70%;
+}
+
+.narrow {
+  width: 15%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.average {
+  width: 33.333333%;
+}
+
+.ironman {
+  background: url(http://aaronchuo.cc/assets/images/ironman.jpg) top center no-repeat;
+  background-size: auto 120%;
+}
+
+.captain {
+  background: url(http://aaronchuo.cc/assets/images/captain_america.jpg) top center no-repeat;
+  background-size: auto 120%;
+}
+
+.thor {
+  background: url(http://aaronchuo.cc/assets/images/thor.jpg) top center no-repeat;
+  background-size: auto 120%;
+}
