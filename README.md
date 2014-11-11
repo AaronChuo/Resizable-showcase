@@ -1,4 +1,6 @@
-Resizable-showcase
-==================
+# Resizable-showcase
+- Resize to widely section when user hover it.
+- Use jQuery.
 
-Resize to widely section when user hover it.
+### Showcase
+- [http://codepen.io/aaronchuo/pen/Juksg](http://codepen.io/aaronchuo/pen/Juksg) by Aaron Chuo
